@@ -128,6 +128,7 @@ C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Hotfix\bin\Debug\UnityEngine.
 C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Hotfix\bin\Debug\UnityEngine.InputModule.xml
 C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Hotfix\obj\Debug\Hotfix.csproj.AssemblyReference.cache
 C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Hotfix\obj\Debug\Hotfix.csproj.CoreCompileInputs.cache
-C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Hotfix\obj\Debug\Hotfix.csproj.CopyComplete
 C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Hotfix\obj\Debug\Hotfix.dll
 C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Hotfix\obj\Debug\Hotfix.pdb
+C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Assets\StreamingAssets\Hotfix.dll
+C:\Users\Admin\GitRoot\TestILRuntime\TestILRuntime\Assets\StreamingAssets\Hotfix.pdb

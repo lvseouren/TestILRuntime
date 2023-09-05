@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MainProject;
 using UnityEngine;
 
 namespace Hotfix
@@ -12,6 +8,14 @@ namespace Hotfix
         public static void TestFunc1()
         {
             Debug.Log("Run Hotfix HotfixStuff TestFun1");
+        }
+    }
+
+    public class DerivedClass: TestBaseClass
+    {
+        static void TestInheritance()
+        {
+            Debug.Log("Run Hotfix DerivedClass TestInheritance");
         }
     }
 }
