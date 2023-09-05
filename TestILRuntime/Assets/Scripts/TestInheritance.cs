@@ -41,8 +41,9 @@ namespace MainProject
 
         public override object CreateCLRInstance(ILRuntime.Runtime.Enviorment.AppDomain appdomain, ILTypeInstance instance)
         {
-            throw new NotImplementedException();
+            return new Adapter(appdomain, instance);
         }
+
 
         public class Adapter : TestBaseClass, CrossBindingAdaptorType
         {

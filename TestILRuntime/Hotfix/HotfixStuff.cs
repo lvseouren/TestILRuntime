@@ -17,5 +17,11 @@ namespace Hotfix
         {
             Debug.Log("Run Hotfix DerivedClass TestInheritance");
         }
+
+        public override void BaseMethod1()
+        {
+            Debug.Log("Run DerivedClass BaseMethod1");
+        }
+
     }
 }

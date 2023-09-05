@@ -47,7 +47,10 @@ namespace MainProject
         void OnILRuntimeInitialized()
         {
             appdomain.RegisterCrossBindingAdaptor(new TestBaseClassAdapter());
-            appdomain.Invoke("Hotfix.DerivedClass", "TestInheritance", null, null);
+            TestBaseClass obj;
+            obj = appdomain.Instantiate<TestBaseClass>("Hotfix.DerivedClass");
+            obj.BaseMethod1();
+            //appdomain.Invoke("Hotfix.DerivedClass", "TestInheritance", null, null);
         }
     }
 }
