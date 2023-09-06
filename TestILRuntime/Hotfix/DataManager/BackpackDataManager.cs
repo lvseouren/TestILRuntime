@@ -43,15 +43,14 @@ namespace Hotfix
         public List<Item> GetItemList(ItemType itemType)
         {
             var lst = mItemDict.Select(kv => kv.Value).Where(item=>item.itemType == itemType || itemType == ItemType.TypeAll).ToList();
-            if (itemType == ItemType.TypeAll)
-            {
-                lst.Sort((a, b) =>
-                  {
-                      if (a.itemType != b.itemType)
-                          return a.itemType - b.itemType;
-                      return a.id - b.id;
-                  });
-            }
+  
+            lst.Sort((a, b) =>
+                {
+                    if (a.itemType != b.itemType)
+                        return (int)a.itemType - (int)b.itemType;
+                    return a.id - b.id;
+                });
+            
             return lst;
         }
 
